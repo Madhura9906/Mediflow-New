@@ -1,0 +1,5 @@
+.home-page {
+  position: relative;
+  min-height: 100vh;
+  background: linear-gradient(180deg, #eef4fb 0%, #f8fbff 100%);
+}

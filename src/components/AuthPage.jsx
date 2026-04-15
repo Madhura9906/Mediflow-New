@@ -160,6 +160,16 @@ function AuthPage() {
   return (
     <div className="auth-split">
       <div className="auth-hero">
+        <video
+          className="hero-bg-video"
+          autoPlay
+          loop
+          muted
+          playsInline
+        >
+          <source src="/videos/bg1.mp4" type="video/mp4" />
+        </video>
+
         <div className="hero-overlay" />
         <div className="hero-content">
           <div className="hero-logo">

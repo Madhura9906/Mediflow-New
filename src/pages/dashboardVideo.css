@@ -1,17 +1,25 @@
+.dashboard-video-wrapper,
 .video-banner {
   position: relative;
   width: 100%;
-  height: 280px;
   overflow: hidden;
-  margin-bottom: 30px;
 }
 
+.dashboard-video-wrapper {
+  min-height: 100vh;
+}
+
+.dashboard-bg-video,
 .video-banner-bg {
+  position: absolute;
+  inset: 0;
   width: 100%;
   height: 100%;
   object-fit: cover;
+  z-index: -1;
 }
 
+.dashboard-overlay,
 .video-banner-overlay {
   position: absolute;
   inset: 0;
@@ -22,6 +30,12 @@
   align-items: center;
   color: white;
   text-align: center;
+  z-index: 1;
+}
+
+.video-banner {
+  height: 280px;
+  margin-bottom: 30px;
 }
 
 .video-banner-overlay h1 {
